@@ -15,6 +15,7 @@
 </head>
 <body>
 <%
+	request.setCharacterEncoding("UTF-8");
 	String userID = null;
 	if(session.getAttribute("userID") != null) {
 		userID = (String) session.getAttribute("userID");

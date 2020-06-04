@@ -39,7 +39,7 @@
 		return;
 	}
 	
-	String host = "http://localhost:8100/Lecture_Evaluation/";
+	String host = "http://localhost:8080/Lecture_Evaluation/";
 	String from = "kimdongwook1112@gmail.com";
 	String to = userDAO.getUserEmail(userID);
 	String subject = "강의평가를 위한 인증 메일입니다.";
